@@ -1,0 +1,5 @@
+﻿"ID";"Titre";"Statut";"Dernière modification";"Date d'ouverture";"Priorité";"Demandeur - Demandeur";"Attribué à - Technicien";"Catégorie";"TTR"
+"1";"Impossible de se connecter sur le poste via VPN";"Résolu";"2026-09-14 10:40";"2026-09-14 09:10";"Moyenne";"glpi";"glpi";"";""
+"4";"Impossible de se connecter via l'application métier";"En attente";"2026-09-14 09:41";"2026-09-14 09:41";"Très haute";"glpi";"glpi";"";""
+"3";"Aucun réception de mails du fournisseur";"En attente";"2026-09-14 09:32";"2026-09-14 09:32";"Moyenne";"glpi";"glpi";"";""
+"2";"Problème d'imprimante non reconnu";"En attente";"2026-09-14 09:18";"2026-09-14 09:18";"Haute";"glpi";"glpi";"";""
