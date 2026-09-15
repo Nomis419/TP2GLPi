@@ -1,10 +1,10 @@
 # TP ITIL 5 — Amélioration du support infrastructure réseau (CHOR)
 
 Dépôt : `tp-itil5-simon`
-Auteur : Simon — BTS SISR / TSRS — apprenti réseaux & systèmes, référent NetBox au CHOR
+Auteur : Simon — TSRS — technicien réseaux & systèmes, outil NetBox
 Cadre : ITIL 5 (PeopleCert, publié le 12 février 2026)
 
-Ce dépôt applique ITIL 5 à un cas réel : le support / infrastructure réseau N2 d'un centre hospitalier, qui reçoit les escalades du helpdesk N1 et de l'équipe câblage. Symptômes traités : lenteur, tickets perdus, rappels répétés.
+Ce dépôt applique ITIL 5 à un cas réel : le support / infrastructure réseau N2, qui reçoit les escalades du helpdesk N1 et de l'équipe câblage. Symptômes traités : lenteur, tickets perdus, rappels répétés.
 
 > **Note de confidentialité.** Conformément à une approche *placeholder-first* et au contexte HDS/PGSSI-S/NIS2, ce dépôt ne contient **aucune configuration réelle** de l'établissement (pas de plages IP, de community SNMP, ni de noms/ID de VLAN internes). Les familles d'équipements et les récits de diagnostic sont conservés à titre illustratif.
 
@@ -29,7 +29,7 @@ Ce dépôt applique ITIL 5 à un cas réel : le support / infrastructure réseau
 Titre        : [DEMANDE] Provisionnement VM dédiée Ansible/supervision (suite RFC-2026-021)
 Type         : Demande
 Catégorie    : Infrastructure / Virtualisation
-Demandeur    : Simon (référent NetBox)
+Demandeur    : Simon 
 Validé par   : Chef d'infrastructure réseau
 Priorité     : P3 — Mineur (planifiée, non bloquante)
 Statut       : Résolu → en attente de confirmation
