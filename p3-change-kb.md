@@ -10,8 +10,8 @@
 |-------|--------|
 | **ID** | RFC-2026-021 |
 | **Titre** | Déploiement d'un système d'automatisation « détection d'événements câblage → mise à jour NetBox » avec workflow d'approbation |
-| **Demandeur** | Simon — apprenti réseaux & systèmes, référent NetBox |
-| **Approbateur** | Chef d'infrastructure réseau (président du CAB) |
+| **Demandeur** | Simon — technicien réseaux & systèmes |
+| **Approbateur** | Chef d'infrastructure réseau |
 | **Date de dépôt** | 2026-09-15 |
 | **Service impacté** | CMDB (NetBox) + supervision réseau |
 | **Type de changement** | **Normal** (voir justification) |
@@ -50,7 +50,7 @@ Composants : `trap_receiver.py`, `alerting.py`, `netbox_updater.py`, `test_simul
 > « Le changement supprime une source de tickets liés à des ports/mouvements non documentés et fiabilise la CMDB, socle des projets à venir (NAC, refonte Wi-Fi). Le risque est maîtrisé : développement testé en simulation, service désactivable en une commande, et surtout **aucune écriture automatique** — l'humain valide chaque mise à jour. »
 
 **Approbateur (chef d'infra réseau) — évaluation :**
-> « Approbation **conditionnelle**. J'ai fourni la VM et je valide l'approche, mais j'impose : (1) SNMP en **v3** (auth + chiffrement) sur le réseau de management, pas de v2c ; (2) gestion propre du secret HMAC et des délais d'expiration des liens ; (3) mécanisme anti-tempête (regroupement/seuil) pour ne pas noyer l'équipe pendant les maintenances ; (4) documentation avec **placeholders** (aucune config réelle de l'établissement dans les livrables partagés). Sous ces conditions : validé. »
+> « Approbation **conditionnelle**. J'ai fourni la VM et je valide l'approche, mais j'impose : (1) SNMP en **v2** (auth + chiffrement) sur le réseau de management, pas de v2c ; (2) gestion propre du secret HMAC et des délais d'expiration des liens ; (3) mécanisme anti-tempête (regroupement/seuil) pour ne pas noyer l'équipe pendant les maintenances ; (4) documentation avec **placeholders** (aucune config réelle de l'établissement dans les livrables partagés). Sous ces conditions : validé. »
 
 *(Cette interaction reflète le déroulé réel : projet accueilli positivement, VM dédiée proposée, et workflow d'approbation par mail suggéré par le chef en remplacement de la mise à jour automatique.)*
 
