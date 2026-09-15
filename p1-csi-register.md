@@ -1,10 +1,10 @@
 # Partie 1 — Diagnostic (4 dimensions + Continual Improvement)
 
-**Établissement :** centre hospitalier (CHOR) — environnement de production de santé.
+**Établissement :** environnement de production de santé.
 **Service analysé :** support / infrastructure réseau de niveau 2 (N2), qui reçoit les escalades du helpdesk N1 et de l'équipe câblage.
 **Symptômes rapportés :** lenteur de traitement · tickets perdus · utilisateurs qui rappellent plusieurs fois pour le même problème.
 
-> Contexte réel : dans les chambres et services, le brassage câble et la configuration de port sont réalisés par une **équipe câblage** qui escalade ensuite vers l'infra pour diagnostic. La CMDB de l'établissement est **NetBox** ; la supervision repose sur **Zabbix**, **Netdisco** et **SNMP**.
+> Contexte réel : dans les chambres et services, le brassage câble et la configuration de port sont réalisés par une **équipe câblage** qui escalade ensuite vers l'infra pour diagnostic. La CMDB de l'établissement est **NetBox** ; la supervision repose sur **Zabbix**, **Netdisco**.
 >
 > Vocabulaire ITIL 5 : ces quatre dimensions sont les « ITIL Four Dimensions of Product and Service Management ».
 
