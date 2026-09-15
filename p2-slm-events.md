@@ -2,13 +2,13 @@
 
 ## 0. Échelle de priorité de référence (contexte hospitalier)
 
-| Priorité | Définition | Exemple CHOR |
+| Priorité | Définition | Exemple |
 |----------|-----------|--------------|
 | **P1 — Critique** | Impact sur un soin ou un service clinique, sans contournement. | Équipement médical connecté isolé du réseau, téléphonie SIP d'un service de soins HS. |
 | **P2 — Majeur** | Fonction dégradée ou un poste bloqué avec contournement. | Poste de travail lent (mismatch duplex), imprimante d'un bureau HS. |
 | **P3 — Mineur** | Gêne ou demande non bloquante. | Question d'usage, déclaration d'un nouvel équipement. |
 
-**Base de mesure :** heures ouvrées, temps décompté aux statuts « En attente utilisateur » et « En attente tiers » (ex. escalade biomédicale). Les événements sont issus de **Zabbix / SNMP / Netdisco**.
+**Base de mesure :** heures ouvrées, temps décompté aux statuts « En attente utilisateur » et « En attente tiers » (ex. escalade biomédicale). Les événements sont issus de **Zabbix / Netdisco**.
 
 ---
 
