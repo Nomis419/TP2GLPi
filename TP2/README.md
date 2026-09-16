@@ -1,8 +1,6 @@
-# TP ITIL / GLPI — « Une journée chez NORTEK SI »
+# TP ITIL / GLPI — « NORTEK SI »
 
 Traitement complet d'une journée type de support IT chez **NORTEK SI** (200 salariés, DSI de 4 personnes), appliqué dans **GLPI** en respectant les bonnes pratiques **ITIL** : gestion des incidents, des problèmes, des changements, des configurations (CMDB) et des demandes de service.
-
-> Cas d'école pédagogique — l'entreprise NORTEK SI est fictive.
 
 ## Contenu du dépôt
 
