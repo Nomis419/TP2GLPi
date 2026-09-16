@@ -4,8 +4,6 @@ Auteur : Simon — technicien support IT (TP ITIL / GLPI)
 
 Ce document reprend, pour chaque phase, les choix effectués dans GLPI et leur justification. Les **captures d'écran** des manipulations finales sont placées sous le paragraphe de chaque phase et stockées dans le dossier [`images/`](./images).
 
-> Convention : `<!-- CAPTURE : ... -->` (invisible sur GitHub) rappelle ce que doit montrer l'image ; la légende en italique sous l'image est visible.
-
 ---
 
 ## Configuration préalable — SLA
