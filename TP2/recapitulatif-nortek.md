@@ -1,6 +1,6 @@
 # Compte rendu — « Une journée chez NORTEK SI »
 
-Auteur : Simon — technicien support IT (TP ITIL / GLPI)
+Auteur : Simon Auré — technicien systèmes réseaux et sécurité (EXPERNET)
 
 Ce document reprend, pour chaque phase, les choix effectués dans GLPI et leur justification. Les **captures d'écran** des manipulations finales sont placées sous le paragraphe de chaque phase et stockées dans le dossier [`images/`](./images).
 
